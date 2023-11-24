@@ -16,7 +16,7 @@ class Login: AppCompatActivity() {
         super.onCreate(saveInstanceState)
         binding = LoginBinding.inflate(layoutInflater)
         setContentView(R.layout.login)
-        //ola
+        
 
         firebaseAuth = FirebaseAuth.getInstance()
         binding.txtReg.setOnClickListener{
