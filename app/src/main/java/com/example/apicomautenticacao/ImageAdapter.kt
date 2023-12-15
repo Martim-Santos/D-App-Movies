@@ -1,33 +1,29 @@
 package com.example.apicomautenticacao
 
 import android.content.Context;
+import android.media.Image
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
+import androidx.recyclerview.widget.RecyclerView
 
-class ImageAdapter() : BaseAdapter() {
-    lateinit var context: Context
+class ImageAdapter (private val images: List<Image>, private val context: Context) :
+    RecyclerView.Adapter<ImageAdapter.ViewHolder>() {
 
-    constructor(context: Context) : super() {
-        this.context = context
-    }
-
-
-    override fun getCount(): Int {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ImageAdapter.ViewHolder {
         TODO("Not yet implemented")
     }
 
-    override fun getItem(p0: Int): Any {
-        TODO("Not yet implemented")
+    override fun onBindViewHolder(holder: ImageAdapter.ViewHolder, position: Int) {
+        val image = images[position]
+        holder?.let {
+            it.bindView(image)
+        }
     }
 
-    override fun getItemId(p0: Int): Long {
+
+    override fun getItemCount(): Int {
         TODO("Not yet implemented")
     }
-
-    override fun getView(p0: Int, p1: View?, p2: ViewGroup?): View {
-        TODO("Not yet implemented")
-    }
-
 
 }

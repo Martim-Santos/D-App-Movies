@@ -1,7 +1,17 @@
 package com.example.apicomautenticacao
 
+import android.Manifest
+import android.annotation.SuppressLint
+import android.content.pm.PackageManager
+import android.media.Image
 import android.os.Bundle
+import android.provider.MediaStore
+import android.provider.MediaStore.Audio.Media
+import android.provider.MediaStore.Images
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
+import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 
@@ -10,7 +20,10 @@ class MainActivity : AppCompatActivity() {
     lateinit var tabLayout: TabLayout
     lateinit var viewPager2: ViewPager2
     lateinit var myViewPageAdapter: ViewPageAdapter
+    private var imageRecycler:RecyclerView?=null
+    private var Images:ArrayList<Image>?=null
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -39,6 +52,7 @@ class MainActivity : AppCompatActivity() {
                 tabLayout.getTabAt(position)?.select()
             }
         })
+
 
     }
 
