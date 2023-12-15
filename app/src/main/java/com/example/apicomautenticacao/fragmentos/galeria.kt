@@ -8,4 +8,5 @@ import android.view.ViewGroup
 import com.example.apicomautenticacao.R
 
 class galeria: Fragment() {
+
 }
