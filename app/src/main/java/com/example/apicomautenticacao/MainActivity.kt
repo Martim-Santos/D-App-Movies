@@ -1,18 +1,12 @@
 package com.example.apicomautenticacao
 
-import android.Manifest
 import android.annotation.SuppressLint
-import android.content.pm.PackageManager
 import android.media.Image
 import android.os.Bundle
-import android.provider.MediaStore
-import android.provider.MediaStore.Audio.Media
-import android.provider.MediaStore.Images
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
+import com.example.apicomautenticacao.Adapters.ViewPageAdapter
 import com.google.android.material.tabs.TabLayout
 
 class MainActivity : AppCompatActivity() {

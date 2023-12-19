@@ -1,4 +1,4 @@
-package com.example.apicomautenticacao
+package com.example.apicomautenticacao.Adapters
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
