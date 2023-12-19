@@ -14,11 +14,11 @@ class ViewPageAdapter(fragmentActivity:FragmentActivity): FragmentStateAdapter(f
 
     override fun createFragment(position: Int): Fragment {
         when(position) {
-            0 -> return menu_principal()
-            1 -> return camera()
-            2 -> return galeria()
-            3 -> return creditos()
-            else -> return menu_principal()
+            0 -> return Menu_principal()
+            1 -> return Camera()
+            2 -> return Galeria()
+            3 -> return Creditos()
+            else -> return Menu_principal()
         }
     }
 }
