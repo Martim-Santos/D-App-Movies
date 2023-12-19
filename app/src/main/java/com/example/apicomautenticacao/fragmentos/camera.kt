@@ -26,7 +26,7 @@ Use the [Fragmento2.newInstance] factory method to
 create an instance of this fragment.
  */
 
-class camera : Fragment() {
+class Camera : Fragment() {
     lateinit var button: Button
     lateinit var imageView: ImageView
 
