@@ -1,6 +1,7 @@
 package com.example.apicomautenticacao
 
 import android.os.Bundle
+import android.view.inputmethod.InputBinding
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
