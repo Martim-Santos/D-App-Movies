@@ -9,7 +9,7 @@ import com.example.apicomautenticacao.fragmentos.*
 class ViewPageAdapter(fragmentActivity:FragmentActivity): FragmentStateAdapter(fragmentActivity)  {
 
     override fun getItemCount(): Int{
-        return 4
+        return 1
     }
 
     override fun createFragment(position: Int): Fragment {
