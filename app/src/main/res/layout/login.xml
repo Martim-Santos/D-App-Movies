@@ -35,7 +35,7 @@
         android:ems="10"
         android:hint="Input your Password"
         android:inputType="textPassword"
-        android:passwordToggleEnabled="true"
+
         app:layout_constraintBottom_toTopOf="@+id/btLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
