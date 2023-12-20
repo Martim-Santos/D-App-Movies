@@ -32,7 +32,6 @@ class ImageAdapter (private val images: List<Foto>, private val context: Context
 
     override fun getItemCount(): Int {
         return images.size
-
     }
 
 
@@ -41,7 +40,7 @@ class ImageAdapter (private val images: List<Foto>, private val context: Context
             val nome: EditText = itemView.findViewById(R.id.image_item_name)
             val imagem: ImageView= itemView.findViewById(R.id.ImageView)
 
-            imagem.setImageURI(Uri.parse(image.imagem))
+            imagem.setImageURI(Uri.parse(image.foto))
             nome.setText(image.nome)
         }
     }
