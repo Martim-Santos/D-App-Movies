@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "618212234273",
+    "project_id": "dam-galery",
+    "storage_bucket": "dam-galery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618212234273:android:3586eff9e3164a6848ff60",
+        "android_client_info": {
+          "package_name": "com.example.apicomautenticacao"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaW5Xcpe8NpeXRtI9AnehQVmYz6f97vho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
